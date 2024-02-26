@@ -1,0 +1,404 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "gong-wpf-dragdrop/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Markdig/0.22.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Markdig.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Markdig.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Markdig.Wpf/0.5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Markdig": "0.22.0"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/Markdig.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Markdig.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MouseKeyHook/5.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Gma.System.MouseKeyHook.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Gma.System.MouseKeyHook.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "NHotkey/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/NHotkey.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NHotkey.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "NHotkey.Wpf/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NHotkey": "2.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/NHotkey.Wpf.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NHotkey.Wpf.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Panuon.WPF/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows/Panuon.WPF.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows/Panuon.WPF.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Panuon.WPF.UI/1.1.16.8": {
+        "type": "package",
+        "dependencies": {
+          "Panuon.WPF": "1.0.3"
+        },
+        "compile": {
+          "lib/net6.0-windows/Panuon.WPF.UI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows/Panuon.WPF.UI.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "gong-wpf-dragdrop/3.2.1": {
+      "sha512": "duqBiOHQobupqRdbLYcr+8BQeeuHkvPDHQs9lnLZ03sYkmJbk5ApXqgUfx7hPP7tN9qopFQKl6OlYIHixnI1iw==",
+      "type": "package",
+      "path": "gong-wpf-dragdrop/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "GongSolutions.Wpf.DragDrop.png",
+        "LICENSE",
+        "gong-wpf-dragdrop.3.2.1.nupkg.sha512",
+        "gong-wpf-dragdrop.nuspec",
+        "lib/net462/GongSolutions.WPF.DragDrop.dll",
+        "lib/net462/GongSolutions.WPF.DragDrop.xml",
+        "lib/net47/GongSolutions.WPF.DragDrop.dll",
+        "lib/net47/GongSolutions.WPF.DragDrop.xml",
+        "lib/net48/GongSolutions.WPF.DragDrop.dll",
+        "lib/net48/GongSolutions.WPF.DragDrop.xml",
+        "lib/net5.0-windows7.0/GongSolutions.WPF.DragDrop.dll",
+        "lib/net5.0-windows7.0/GongSolutions.WPF.DragDrop.xml",
+        "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.dll",
+        "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.xml",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.dll",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.xml"
+      ]
+    },
+    "Markdig/0.22.0": {
+      "sha512": "/GbIsc1Dc/fOPqJM2sWIlWymgRAVfJhet+MY1Ze46HpDMyl+9TTfs4AdYbXx5QZo7eRh+Ew7A/nyGSVNCuYd9g==",
+      "type": "package",
+      "path": "markdig/0.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Markdig.dll",
+        "lib/net452/Markdig.xml",
+        "lib/netcoreapp2.1/Markdig.dll",
+        "lib/netcoreapp2.1/Markdig.xml",
+        "lib/netcoreapp3.1/Markdig.dll",
+        "lib/netcoreapp3.1/Markdig.xml",
+        "lib/netstandard2.0/Markdig.dll",
+        "lib/netstandard2.0/Markdig.xml",
+        "lib/netstandard2.1/Markdig.dll",
+        "lib/netstandard2.1/Markdig.xml",
+        "markdig.0.22.0.nupkg.sha512",
+        "markdig.nuspec"
+      ]
+    },
+    "Markdig.Wpf/0.5.0.1": {
+      "sha512": "lQRxu90ZqCATHTvd25yR/MxXABYA+Xcp7tmKW5jReTIgegB+AcU0+cd1GqdpM5k2KRVaD8BkBYQFdDw0lquT4w==",
+      "type": "package",
+      "path": "markdig.wpf/0.5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Markdig.Wpf.dll",
+        "lib/net5.0-windows7.0/Markdig.Wpf.dll",
+        "lib/netcoreapp3.1/Markdig.Wpf.dll",
+        "markdig.wpf.0.5.0.1.nupkg.sha512",
+        "markdig.wpf.nuspec"
+      ]
+    },
+    "MouseKeyHook/5.7.1": {
+      "sha512": "c0VhB6cbcOpMOcoCQmvPMVqxaH76S4IPHwpbCIY7XKUNimdj9+81rX+Evnu5O53xYgUvdD7g0qmlVeZP2wGCnA==",
+      "type": "package",
+      "path": "mousekeyhook/5.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Gma.System.MouseKeyHook.dll",
+        "lib/net48/Gma.System.MouseKeyHook.dll",
+        "lib/net6.0-windows7.0/Gma.System.MouseKeyHook.dll",
+        "lib/net7.0-windows7.0/Gma.System.MouseKeyHook.dll",
+        "mouse-keyboard-hook-logo64x64.png",
+        "mousekeyhook.5.7.1.nupkg.sha512",
+        "mousekeyhook.nuspec"
+      ]
+    },
+    "NHotkey/2.1.1": {
+      "sha512": "LLjgy7CUEgZN6zyEjJmpNUrz5jkeKahd34j5Ys2pImjilRPlZFWRRr8yiqywWsRe8p1WfVsLcvdutjiwPBHEpg==",
+      "type": "package",
+      "path": "nhotkey/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NHotkey.dll",
+        "lib/net40/NHotkey.pdb",
+        "lib/net45/NHotkey.dll",
+        "lib/net45/NHotkey.pdb",
+        "lib/netcoreapp3.0/NHotkey.dll",
+        "lib/netcoreapp3.0/NHotkey.pdb",
+        "nhotkey.2.1.1.nupkg.sha512",
+        "nhotkey.nuspec"
+      ]
+    },
+    "NHotkey.Wpf/2.1.1": {
+      "sha512": "3jbacG/62j0/BsviuVl0IIDa73pbzoKjcdK6o6umKgImB7vwMWm7+eh7Dorb8ebrJ8A7HE/XMwgVMXgmSFr+IQ==",
+      "type": "package",
+      "path": "nhotkey.wpf/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/NHotkey.Wpf.dll",
+        "lib/net40/NHotkey.Wpf.pdb",
+        "lib/net45/NHotkey.Wpf.dll",
+        "lib/net45/NHotkey.Wpf.pdb",
+        "lib/netcoreapp3.0/NHotkey.Wpf.dll",
+        "lib/netcoreapp3.0/NHotkey.Wpf.pdb",
+        "nhotkey.wpf.2.1.1.nupkg.sha512",
+        "nhotkey.wpf.nuspec"
+      ]
+    },
+    "Panuon.WPF/1.0.3": {
+      "sha512": "l+QaGbOyxH4O/SBujqPPAP5iWzim/NY6yUpJJKF52iuabGZSl7FJFIQ7SakTUXX7ka/CGgDai6Q400Ymkn/jew==",
+      "type": "package",
+      "path": "panuon.wpf/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Panuon.WPF.dll",
+        "lib/net45/Panuon.WPF.pdb",
+        "lib/net462/Panuon.WPF.dll",
+        "lib/net462/Panuon.WPF.pdb",
+        "lib/net472/Panuon.WPF.dll",
+        "lib/net472/Panuon.WPF.pdb",
+        "lib/net48/Panuon.WPF.dll",
+        "lib/net48/Panuon.WPF.pdb",
+        "lib/net5.0-windows/Panuon.WPF.dll",
+        "lib/net5.0-windows/Panuon.WPF.pdb",
+        "lib/net6.0-windows/Panuon.WPF.dll",
+        "lib/net6.0-windows/Panuon.WPF.pdb",
+        "lib/net7.0-windows/Panuon.WPF.dll",
+        "lib/net7.0-windows/Panuon.WPF.pdb",
+        "lib/netcoreapp3.1/Panuon.WPF.dll",
+        "lib/netcoreapp3.1/Panuon.WPF.pdb",
+        "nuget.exe",
+        "panuon.wpf.1.0.3.nupkg.sha512",
+        "panuon.wpf.nuspec",
+        "批量复制.bat"
+      ]
+    },
+    "Panuon.WPF.UI/1.1.16.8": {
+      "sha512": "64TBdozoWvzQK2xP1sF+RczZP7BLiIPDKVA6JbF0iTgj7/ehW/GmsMAEMhJjp6qUCM79/xI+7sfZKyU4oQjlAw==",
+      "type": "package",
+      "path": "panuon.wpf.ui/1.1.16.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Panuon.WPF.UI.dll",
+        "lib/net45/Panuon.WPF.UI.pdb",
+        "lib/net462/Panuon.WPF.UI.dll",
+        "lib/net462/Panuon.WPF.UI.pdb",
+        "lib/net472/Panuon.WPF.UI.dll",
+        "lib/net472/Panuon.WPF.UI.pdb",
+        "lib/net48/Panuon.WPF.UI.dll",
+        "lib/net48/Panuon.WPF.UI.pdb",
+        "lib/net5.0-windows/Panuon.WPF.UI.dll",
+        "lib/net5.0-windows/Panuon.WPF.UI.pdb",
+        "lib/net6.0-windows/Panuon.WPF.UI.dll",
+        "lib/net6.0-windows/Panuon.WPF.UI.pdb",
+        "lib/net7.0-windows/Panuon.WPF.UI.dll",
+        "lib/net7.0-windows/Panuon.WPF.UI.pdb",
+        "lib/netcoreapp3.1/Panuon.WPF.UI.dll",
+        "lib/netcoreapp3.1/Panuon.WPF.UI.pdb",
+        "nuget.exe",
+        "panuon.wpf.ui.1.1.16.8.nupkg.sha512",
+        "panuon.wpf.ui.nuspec",
+        "批量复制.bat"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Markdig.Wpf >= 0.5.0.1",
+      "MouseKeyHook >= 5.7.1",
+      "NHotkey.Wpf >= 2.1.1",
+      "Panuon.WPF.UI >= 1.1.16.8",
+      "gong-wpf-dragdrop >= 3.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\32480\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\32480\\Desktop\\CheemsUI\\version3\\CircleControl\\CircleControl.csproj",
+      "projectName": "CircleControl",
+      "projectPath": "C:\\Users\\32480\\Desktop\\CheemsUI\\version3\\CircleControl\\CircleControl.csproj",
+      "packagesPath": "C:\\Users\\32480\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\32480\\Desktop\\CheemsUI\\version3\\CircleControl\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\32480\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Markdig.Wpf": {
+            "target": "Package",
+            "version": "[0.5.0.1, )"
+          },
+          "MouseKeyHook": {
+            "target": "Package",
+            "version": "[5.7.1, )"
+          },
+          "NHotkey.Wpf": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Panuon.WPF.UI": {
+            "target": "Package",
+            "version": "[1.1.16.8, )"
+          },
+          "gong-wpf-dragdrop": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

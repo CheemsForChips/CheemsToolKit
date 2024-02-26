@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "5v09XrivrBcVcqv4ht5Ka0s9y1g/9ght44OwhtO4oT269jJdQHESonsI9Qfqk1Ew9HdUT3ysDf8W4dmhQ1Z5mw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\32480\\Desktop\\CheemsUI\\version3\\CircleControl\\CircleControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\32480\\.nuget\\packages\\gong-wpf-dragdrop\\3.2.1\\gong-wpf-dragdrop.3.2.1.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\markdig\\0.22.0\\markdig.0.22.0.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\markdig.wpf\\0.5.0.1\\markdig.wpf.0.5.0.1.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\mousekeyhook\\5.7.1\\mousekeyhook.5.7.1.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\nhotkey\\2.1.1\\nhotkey.2.1.1.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\nhotkey.wpf\\2.1.1\\nhotkey.wpf.2.1.1.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\panuon.wpf\\1.0.3\\panuon.wpf.1.0.3.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\panuon.wpf.ui\\1.1.16.8\\panuon.wpf.ui.1.1.16.8.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\32480\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
